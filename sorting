@@ -1,0 +1,10 @@
+// Sample array
+let array = [5, 8, 1, 4, 2, 9, 3, 7, 6];
+
+// Sorting in descending order
+array.sort(function(a, b) {
+    return b - a;
+});
+
+// Display the sorted array
+console.log(array);
